@@ -54,21 +54,27 @@
 
 .more-suggestions__icons {
   display: flex;
-  justify-content: left;
-  padding-bottom: 25px;
 }
 
-.more-suggestions__icon-image {
+.more-suggestions__icon {
+  margin-right: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 30px;
+}
+
+.more-suggestions__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(240, 240, 58);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .more-suggestions__icon-image i {
-  font-size: 50px;
-}
-
-.more-suggestions__icon-image span {
-  margin-top: 18px;
+  font-size: 30px;
+  color: white;
 }
